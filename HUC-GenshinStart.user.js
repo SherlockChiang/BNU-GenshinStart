@@ -5,9 +5,9 @@
 // @description  原神，启动！
 // @license      MIT
 // @author       Yuluoxk
-// @match        https://cas.bnu.edu.cn/*
-// @match        https://webvpn.bnu.edu.cn/*
-// @match        https://webvpn.hnu.edu.cn/users/sign_in
+// @match        https://one.bnu.edu.cn/*
+// @match        https://onevpn.bnu.edu.cn/*
+// @match        https://onevpn.bnu.edu.cn/users/sign_in
 // @match        http://jw.hrbcu.edu.cn/jwglxt/xtgl/login_slogin.html
 // @match        https://jw.webvpn.hrbcu.edu.cn/jwglxt/xtgl/login_slogin.html
 // ==/UserScript==
@@ -16,8 +16,8 @@
   "use strict";
   // 获取当前页面的 URL
   let currentUrl = window.location.href;
-  let casLogin = /^https:\/\/cas\.bnu\.edu\.cn\/.*/;
-  let casLoginWebvpn = /^https:\/\/webvpn\.hnu\.edu\.cn\/.*/;
+  let casLogin = /^https:\/\/one\.bnu\.edu\.cn\/.*/;
+  let casLoginWebvpn = /^https:\/\/onevpn\.bnu\.edu\.cn\/.*/;
   let LoginJW = /^http:\/\/jw\.hrbcu\.edu\.cn\/jwglxt\/xtgl\/login_slogin\.html.*/;
   let LoginJWWebvpn = /^https:\/\/jw\.webvpn\.hrbcu\.edu\.cn\/jwglxt\/xtgl\/login_slogin\.html.*/;
   if (casLogin.test(currentUrl) || casLoginWebvpn.test(currentUrl)) {
