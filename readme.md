@@ -2,6 +2,9 @@
 原神，启动！
 将你的HUC统一登录验证页面/WebVpn登录界面修改为原神样式
 
+clone from yuluoluo, ~~mywife~~
+有生之年一定适配BNU...
+
 **注意：本项目仅为用户JS，涉及向网页内引用外部代码、插入外部内容、隐藏部分内容。代码已经公开，不涉及任何信息收集，不会访问你的任何信息！！**
 
 ![效果图](https://yuluoxk.cn/genshin/preview.png)
